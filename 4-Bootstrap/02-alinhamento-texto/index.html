@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <title>Alinhamento de texto</title>
+  </head>
+  <body style="margin-bottom: 200px; padding: 16px">
+    <!-- paragrafo justificado -->
+    <p class="text-justify">
+      It is a long established fact that a reader will be distracted by the
+      readable content of a page when looking at its layout. The point of using
+      Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+      as opposed to using 'Content here'.
+    </p>
+
+    <!-- 
+      alinhamento responsivo -
+      class=text-<tela>-<Alinhamneto>
+      Tela: sm, md, lg, xl
+      alinhamnetos: left, center, right
+    -->
+    <p class="text-sm-right">Tela &gt;= 576px</p>
+    <!--small-->
+
+    <p class="text-md-right">Tela &gt;= 768px</p>
+    <!--medium-->
+
+    <p class="text-lg-right">Tela &gt;= 992px;</p>
+    <!--large-->
+
+    <p class="text-xl-right">Tela &gt;= 1200px</p>
+    <!--extra large-->
+    <br /><br />
+
+    <!-- elementos block para inline-->
+    <h1 class="bg-success d-inline">Lorem Ipsum</h1>
+    <p class="bg-success d-inline">opposed to using 'Content here'.</p>
+    <br /><br />
+
+    <!-- elementos inline para block-->
+    <span class="bg-success d-block">Lorem Ipsum dolor 1</span>
+    <br />
+    <span class="bg-success d-block">Lorem Ipsum dolor 2</span>
+    <br /><br />
+
+    <!-- elementos inlie-block-->
+    <h3 class="bg-success d-inline-block">Lorem ipsum</h3>
+    <h3 class="bg-success d-inline-block">Lorem ipsum dolor</h3>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

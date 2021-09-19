@@ -1,0 +1,40 @@
+ul.lista {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.lista li {
+	padding:5px 20px;
+	background: url("images/seta.png") no-repeat left center;
+}
+
+
+
+ul.menu {
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+}
+
+ul.menu a {	
+	display: block;
+	width: 200px;
+	height: 40px;
+	background: url("images/menu.png") no-repeat left bottom;
+
+	color: #000;
+	text-decoration: none;	
+	text-indent: 40px;
+	line-height: 40px;
+}
+
+ul.menu a:hover {
+	background-position: right bottom;
+	color: #fff;
+}
+
+#home .home a {
+	background-position: right bottom;
+	color: #fff;
+}

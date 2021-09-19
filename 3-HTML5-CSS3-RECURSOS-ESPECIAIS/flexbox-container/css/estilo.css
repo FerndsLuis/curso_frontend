@@ -1,0 +1,19 @@
+#conteudo {
+  background: #dcdcdc;
+  height: 600px;
+  display: flex;
+  /* Flex Direcetion: row, row-reverse, column, column-reverse  */
+  flex-direction: row;
+  /* Quebra de layout dos ítems: nowrap (não quebra), wrap (quebra), wrap-reverse */
+  flex-wrap: wrap;
+  /* flex-start, flex-end (movimenta p/ direita), center, space-between(cola nas laterais e centraliza os demais), space-around(distribui igualmente, inclusive as laterais) */
+  justify-content: space-around;
+  /* stretch (preenche toda área até completar a altura), center (centraliza na vertical), flex-start (cola no topo da div), flex-end, baseline (alinha de acordo com o textp) */
+  align-items: flex-start;
+}
+
+.item {
+  margin: 10px;
+  background: white;
+  border: 1px solid gray;
+}
